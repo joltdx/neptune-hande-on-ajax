@@ -1,0 +1,17 @@
+{
+    "rules": {
+        "class_attribute_names": {
+            "exclude": [],
+            "severity": "Error",
+            "patternKind": "required",
+            "ignoreNames": [],
+            "ignorePatterns": [],
+            "ignoreExceptions": true,
+            "ignoreLocal": true,
+            "ignoreInterfaces": true,
+            "statics": "^G._.+$",
+            "instance": "^M._.+$",
+            "constants": ""
+    }
+}
+}

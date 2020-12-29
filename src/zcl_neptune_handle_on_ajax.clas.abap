@@ -1,4 +1,4 @@
-CLASS zcl_neat_neptune_handle_on_ajax DEFINITION
+CLASS zcl_neptune_handle_on_ajax DEFINITION
   PUBLIC
   FINAL
   CREATE PUBLIC.
@@ -25,7 +25,7 @@ CLASS zcl_neat_neptune_handle_on_ajax DEFINITION
 
 ENDCLASS.
 
-CLASS zcl_neat_neptune_handle_on_ajax IMPLEMENTATION.
+CLASS zcl_neptune_handle_on_ajax IMPLEMENTATION.
 
   METHOD /neptune/if_nad_server~handle_on_ajax.
 

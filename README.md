@@ -20,4 +20,5 @@ In the example above, if an AJAX call is made that does not have a corresponding
 
 ## Notes
 Using this type of dynamic calling of the methods will have the effect that these calls will NOT be found by the Where-Used function in SAP. Please consider if this is an issue for you.
+
 From a security perspective using dynamic method calls might constitute a security risk. By prefixing these method name with AJAX_, I consider this risk minimized and will not consider more of a threat than the already existing possiblity of making AJAX calls from a browser.
